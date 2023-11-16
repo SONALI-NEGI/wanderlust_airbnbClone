@@ -106,9 +106,10 @@ body {
 
 /* mapbox */
 #map {
- 
-  width: 40rem;
-  height: 25rem;
+ width: 1px;
+ height: 1px;
+  /* width: 40rem;
+  height: 25rem; */
 }
 .marker {
   background-image: url('/css/icon.svg');

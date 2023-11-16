@@ -30,3 +30,15 @@ filters.forEach((filter) => {
     console.log(category);
   });
 });
+
+
+// scroll js
+function scrollFilters(direction) {
+  const container = document.getElementById("filters");
+  const scrollAmount = 200; // Adjust the scroll amount as needed
+  if (direction === "right") {
+    container.scrollLeft += scrollAmount;
+  } else {
+    container.scrollLeft -= scrollAmount;
+  }
+}

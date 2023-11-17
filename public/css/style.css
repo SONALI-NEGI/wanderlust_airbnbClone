@@ -90,7 +90,12 @@ body {
   background-color: #fe424d;
   border: none;
 }
-
+@media (max-width:769px){
+  .edit-btn{
+    width: 4rem;
+    
+  }
+}
 /* show page */
 .show-img {
   height: 30vh;
